@@ -1,0 +1,12 @@
+Implemente uma classe chamada Pessoa com os seguintes atributos:
+• int código
+• String nome
+• String dataCadastro
+Como subclasse da classe Pessoa, implemente duas classes:
+• Cliente
+o Atributos: email, endereco e telefone (String - todos)
+• Usuario
+o Atributos: login e senha (String - todos)
+Implemente os métodos getters e setters de todos os atributos de todas as classes.
+Faça uma classe Principal para testar o programa, com dois objetos de cada classe. Teste todos os
+métodos.
