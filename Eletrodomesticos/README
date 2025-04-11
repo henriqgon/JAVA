@@ -1,0 +1,33 @@
+Crie um programa em Java para gerenciar utensílios e eletrodomésticos de uma cozinha. O programa deve utilizar herança e sobrecarga de construtores.
+
+Requisitos:
+
+  Classe Utensilio:
+
+    Representa as características gerais de utensílios de cozinha.
+    Atributos: nome (String), material (String), tamanho (String).
+    Métodos: getters para os atributos.
+
+  Classe Panela:
+
+    Herda de Utensilio.
+    Atributos adicionais: tipo de tampa (String) e capacidade em litros (double).
+    Métodos: getters para os atributos.
+    Deve implementar dois construtores:
+
+      Um construtor que inicialize apenas os atributos herdados de Utensilio.
+      Um construtor que inicialize todos os atributos, incluindo os da classe Panela.
+
+  Classe Eletrodomestico:
+
+    Herda de Utensilio.
+    Atributos adicionais: potência (inteiro, em watts) e tem timer (boolean).
+    Métodos: getters para os atributos.
+    Deve implementar dois construtores:
+
+      Um construtor que inicialize apenas os atributos herdados de Utensilio.
+      Um construtor que inicialize todos os atributos, incluindo os da classe Eletrodomestico.
+
+  Classe Principal:
+
+    Crie dois objetos da classe Panela e dois da classe Eletrodomestico, utilizando os diferentes construtores.
